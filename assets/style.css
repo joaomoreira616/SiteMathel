@@ -3,20 +3,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #113d63;
     background-color: #f4f4f4;
 }
 
-/* Estilo do cabeçalho e navegação */
 header {
     background-color: #113d63;
     color: white;
-    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10%;
-    flex-wrap: wrap; /* Adiciona flexibilidade em telas menores */
+    padding: 1% 10%;
 }
 
 .logo img{
@@ -29,7 +25,6 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-wrap: wrap; /* Adiciona flexibilidade em telas menores */
 }
 
 nav ul li {
@@ -42,7 +37,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Estilo das seções */
 .section {
     padding: 50px 10%;
     text-align: center;
@@ -56,58 +50,10 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
-/* Estilo do rodapé */
 footer {
     background-color: #113d63;
     color: white;
     text-align: center;
-    padding: 20px 0;
-}
-
-/* Media queries para responsividade */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column; /* Muda para coluna em telas menores */
-        padding: 20px 5%;
-    }
-
-    nav ul {
-        justify-content: center;
-        padding-top: 10px;
-    }
-
-    .section {
-        padding: 40px 5%;
-    }
-
-    .logo h1 {
-        font-size: 28px; /* Ajusta o tamanho da fonte para telas menores */
-    }
-
-    .logo p {
-        font-size: 14px; /* Ajusta o tamanho da fonte para telas menores */
-    }
-}
-
-@media (max-width: 480px) {
-    .section {
-        padding: 30px 5%;
-    }
-
-    nav ul {
-        flex-direction: column; /* Muda para coluna em telas bem pequenas */
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 10px 0; /* Ajusta a margem entre itens da navegação */
-    }
-
-    .logo h1 {
-        font-size: 24px; /* Ajusta ainda mais o tamanho da fonte para telas menores */
-    }
-
-    .logo p {
-        font-size: 12px; /* Ajusta ainda mais o tamanho da fonte para telas menores */
-    }
+    padding: 2% 0;
+    margin-top: 50%;
 }
